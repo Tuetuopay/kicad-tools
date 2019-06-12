@@ -46,6 +46,10 @@ outputs:
         suffix: F_Paste
       - layer: F.Mask
         suffix: F_Mask
+      - layer: In1.Cu
+        suffix: In1_Cu
+      - layer: In2.Cu
+        suffix: In2_Cu
       - layer: B.Cu
         suffix: B_Cu
       - layer: B.SilkS
@@ -56,7 +60,7 @@ outputs:
         suffix: B_Paste
       - layer: B.Mask
         suffix: B_Mask
-      - layer: Edge.Cuts 
+      - layer: Edge.Cuts
         suffix: Edge_Cuts
 
   - name: excellon_drill
@@ -84,7 +88,7 @@ outputs:
   - name: postscript
     comment: "Postscript files"
     type: ps
-    dir: layout/ps 
+    dir: layout/ps
     options:
       exclude_edge_layer: false
       exclude_pads_from_silkscreen: false
@@ -118,6 +122,10 @@ outputs:
         suffix: F_Paste
       - layer: F.Mask
         suffix: F_Mask
+      - layer: In1.Cu
+        suffix: In1_Cu
+      - layer: In2.Cu
+        suffix: In2_Cu
       - layer: B.Cu
         suffix: B_Cu
       - layer: B.SilkS
@@ -128,7 +136,7 @@ outputs:
         suffix: B_Paste
       - layer: B.Mask
         suffix: B_Mask
-      - layer: Edge.Cuts 
+      - layer: Edge.Cuts
         suffix: Edge_Cuts
 
 
@@ -163,6 +171,10 @@ outputs:
         suffix: F_Paste
       - layer: F.Mask
         suffix: F_Mask
+      - layer: In1.Cu
+        suffix: In1_Cu
+      - layer: In2.Cu
+        suffix: In2_Cu
       - layer: B.Cu
         suffix: B_Cu
       - layer: B.SilkS
@@ -173,7 +185,7 @@ outputs:
         suffix: B_Paste
       - layer: B.Mask
         suffix: B_Mask
-      - layer: Edge.Cuts 
+      - layer: Edge.Cuts
         suffix: Edge_Cuts
 
 
@@ -208,6 +220,10 @@ outputs:
         suffix: F_Paste
       - layer: F.Mask
         suffix: F_Mask
+      - layer: In1.Cu
+        suffix: In1_Cu
+      - layer: In2.Cu
+        suffix: In2_Cu
       - layer: B.Cu
         suffix: B_Cu
       - layer: B.SilkS
@@ -218,7 +234,7 @@ outputs:
         suffix: B_Paste
       - layer: B.Mask
         suffix: B_Mask
-      - layer: Edge.Cuts 
+      - layer: Edge.Cuts
         suffix: Edge_Cuts
 
 
@@ -253,6 +269,10 @@ outputs:
         suffix: F_Paste
       - layer: F.Mask
         suffix: F_Mask
+      - layer: In1.Cu
+        suffix: In1_Cu
+      - layer: In2.Cu
+        suffix: In2_Cu
       - layer: B.Cu
         suffix: B_Cu
       - layer: B.SilkS
@@ -263,6 +283,6 @@ outputs:
         suffix: B_Paste
       - layer: B.Mask
         suffix: B_Mask
-      - layer: Edge.Cuts 
+      - layer: Edge.Cuts
         suffix: Edge_Cuts
 
